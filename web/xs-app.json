@@ -1,7 +1,7 @@
 {
 	"welcomeFile": "index.html",
-	"authenticationMethod": "routes",
-		"routes": [{
+	"authenticationMethod": "route",
+	"routes": [{
 	  "source": "(.*)(.xsjs)",
 	  "destination": "core-xsjs-backend",
 	  "csrfProtection": false,
